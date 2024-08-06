@@ -15,7 +15,7 @@ spec:
       containers:
         - name: redis
           # 여러분의 frontend image 주소를 입력해주세요.
-          image: redis
+          image: krmp-d2hub-idock.9rum.cc/goorm/redis
 ---
 apiVersion: v1
 kind: Service
