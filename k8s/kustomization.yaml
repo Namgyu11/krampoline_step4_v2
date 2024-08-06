@@ -4,6 +4,7 @@ resources:
   - frontend.yaml
   - nginx.yaml
   - mariadb.yaml
+  - redis.yaml
 configMapGenerator:
   - name: nginx
     files:
